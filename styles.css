@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 10px;
+    background-color: #f8f8f8;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ------------------------------------------------MENU----------------------------------------------- */
+/* MENU FLEX CONTAINER */
+.menu {
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+
+/* LOGO */
+.menu-logo {
+    margin: 10px;
+    background: linear-gradient(7deg, 
+    rgb(255, 0, 0) 0%, 
+    rgb(255, 0, 0) 32%, 
+    rgb(0, 0, 255) 38%, 
+    rgb(255, 255, 0) 70%, 
+    rgb(255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logoec {
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+
+.logo {
+    width: 50px;
+}
+
+/* MENU FLEX ITEMS */
+.menu-items {
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+}
+
+.menu-item {
+    font-size: 20px;
+}
+
+/* ------------------------------------------------PAGE 1----------------------------------------------- */
+/* MAIN BLOCK CONTAINER */
+.content1 {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+/* BLOCK ONE */
+.content-item1 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* BLOCK TWO */
+.content-item2 {
+    display: block;
+    margin-bottom: 10px;
+    padding: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.content-subtitle {
+    margin-bottom: 40px;
+}
+
+/* ------------------------------------------------PAGE 2----------------------------------------------- */
+/* MAIN BLOCK CONTAINER */
+.content2 {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border: 10px solid gray;
+    padding: 50px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------------PAGE 3----------------------------------------------- */
+/* MAIN FLEX CONTAINER */
+.content3 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* LEFT COLUMN CONTENT */
+.left-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 20%;
+    max-height: 400px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.content3-left > a {
+    text-decoration: underline;
+}
+
+.content3-left > a > h1 {
+    font-weight: 500;
+}
+
+/* RIGHT ROW CONTENT */
+.centered {
+    width: 80%;
+    background-color: #fafefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.right-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 20px;
+    max-width: 980px;
+}
+
+.img-right {
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: -150px 0px;
+}
+
+/* ------------------------------------------------PAGE 4----------------------------------------------- */
+/* MAIN BLOCK CONTAINER */
+.content4 {
+    display: block;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+/* BLOCK CONTENT */
+.content4-block {
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* FLOAT */
+.content4-img {
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content4-text {
+    margin: 15px 0px;
+}
+
+/* ------------------------------------------------PAGE 5----------------------------------------------- */
+/* MAIN BLOCK CONTAINER */
+.content5 {
+    display: block;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+/* BLOCK CONTENT */
+.content5-block {
+    display: block;
+    padding: 20px;
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* FLOAT */
+.content5-img {
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    object-fit: cover;
+}
+
+.content5-subtitle {
+    padding-top: 10px;
+}
+
+.where {
+    padding-top: 5px;
+}
+
+/* ------------------------------------------------FOOTER----------------------------------------------- */
+/* FOOTER */
+.footer {
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+}
+
+.footer-item > a {
+    text-decoration: underline;
+}
